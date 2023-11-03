@@ -1,0 +1,96 @@
+.newProduct {
+    flex: 4;
+}
+  
+.formContainer{
+    margin: auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.addProductTitle{
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    color: #333333;
+}
+
+.addProductForm {
+    margin-top: 20px;
+}
+
+/* .addProductFormSub{
+    display: flex;
+    align-items: center;
+} */
+
+.addProductItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.file{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.addProductItem > label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: gray
+}
+
+.addProductItem > input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.addProductItem > textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.addProductItem > select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.addProductItem .desc{
+    height: 100px;
+}
+
+::placeholder {
+    color: #999;
+}
+
+.addProductButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.addProductButton:hover {
+    background-color: #A69385;
+}
+  

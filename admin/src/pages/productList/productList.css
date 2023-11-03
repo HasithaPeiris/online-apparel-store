@@ -1,0 +1,85 @@
+.productList{
+    flex: 4;
+    /* padding: 20px 40px 20px 40px; */
+    padding-top: 20px;
+}
+
+.productListContainer{
+    margin:auto;
+    width: 90%;
+}
+
+.pageHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    color: #333333;
+}
+
+.addBtn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.add{
+    font-size: 40px !important;
+    color: #333333;
+}
+
+.add:hover{
+    color: #A69385;
+}
+
+.addBtn:hover {
+    background-color: #A69385;
+}
+  
+.dataGrid{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.productListItem{
+    display: flex;
+    align-items: center;
+}
+
+.productListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.productListEdit{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productListDelete{
+    color: #FF0000;
+    margin-left: 20px;
+    cursor: pointer;
+}
