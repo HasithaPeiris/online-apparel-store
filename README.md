@@ -48,3 +48,5 @@ As such, the goal of this project is the creation of a powerful and sleek Online
 - Leveraged MongoDB as the database and utilized Mongoose for efficient data modeling and interaction.
 - Implemented database operations for CRUD (Create, Read, Update, Delete) functionalities and optimized queries for improved performance.
 - Ensured data security by implementing proper data validation, sanitization, and encryption techniques.
+
+[**Behance Portfolio**](https://www.behance.net/gallery/174050699/KRO-Online-Apparel-Store-UXUI)
